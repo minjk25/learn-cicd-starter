@@ -17,8 +17,7 @@ import (
 	_ "github.com/tursodatabase/libsql-client-go/libsql"
 )
 
-// break some code formatting to see if the style job (ci workflows) works properly
-type apiConfig struct{
+type apiConfig struct {
 	DB *database.Queries
 }
 
