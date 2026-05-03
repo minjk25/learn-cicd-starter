@@ -97,8 +97,3 @@ func main() {
 	log.Fatal(srv.ListenAndServe())
 }
 
-// for lint check
-func unused() {
-	// this function does nothing
-	// and is called nowhere
-}
